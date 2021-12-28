@@ -1,7 +1,7 @@
-import logo from '../../logo.svg'
-import ig from '../../ig.svg'
-import linkedin from '../../linkedin.svg'
-import github from '../../github.svg'
+import logo from '../../assets/logo.svg'
+import ig from '../../assets/ig.svg'
+import linkedin from '../../assets/linkedin.svg'
+import github from '../../assets/github.svg'
 import './nav.css'
 
 const NavBar = () => {

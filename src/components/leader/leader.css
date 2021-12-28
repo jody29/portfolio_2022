@@ -1,7 +1,7 @@
 .leader {
     display: flex;
     align-items: center;
-    height: 714px;
+    height: 670px;
     position: relative;
 }
 
@@ -21,7 +21,7 @@ p {
     font-size: 1.7em;
     font-family: 'futura';
     color: white;
-    margin-top: 0;
+    margin-top: -.5em;
 }
 
 button {
@@ -50,9 +50,11 @@ button {
     right: 260px;
     top: 140px;
     z-index: 0;
+    opacity: .8;
 }
 
 .leader img:last-of-type {
     right: -60px;
     top: 450px;
+    opacity: .5;
 }

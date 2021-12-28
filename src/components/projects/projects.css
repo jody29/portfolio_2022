@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: 'futura';
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+h2::before {
+    content: '';
+    top: .8em;
+    width: 7.6em;
+    left: 14.95em;
+    z-index: -20;
+    align-items: center;
+    background-color: #6F9EB7;
+    height: .5em;
+    position: absolute;
+    justify-content: center;
+}

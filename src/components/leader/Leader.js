@@ -1,5 +1,5 @@
-import smallBg from '../../smallBg.svg'
-import bigBg from '../../bigBg.svg'
+import smallBg from '../../assets/smallBg.svg'
+import bigBg from '../../assets/bigBg.svg'
 import './leader.css'
 
 
@@ -13,7 +13,7 @@ const Leader = () => {
             </div>
 
             <img src={bigBg} alt='bigBg'></img>
-            <img src='/picture.png' alt='picture' className='picture' ></img>
+            <img src='/picture.png' alt='profile' className='picture' ></img>
             <img src={smallBg} alt='smallBg'></img>
         </div>
     )
