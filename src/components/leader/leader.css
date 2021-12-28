@@ -1,0 +1,58 @@
+.leader {
+    display: flex;
+    align-items: center;
+    height: 714px;
+    position: relative;
+}
+
+.info {
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 5.5em;
+    font-family: 'futura';
+    font-weight: bold;
+    color: white;
+    margin-bottom: .2em;
+}
+
+p {
+    font-size: 1.7em;
+    font-family: 'futura';
+    color: white;
+    margin-top: 0;
+}
+
+button {
+    background-color: #6F9EB7;
+    outline: none;
+    border: 0;
+    font-family: 'futura';
+    color: white;
+    font-size: 1.1em;
+    padding: 1em 1.5em;
+    border-radius: 3em;
+}
+
+.leader .picture {
+    width: 30%;
+    height: 23em;
+    object-fit: cover;
+    z-index: 100;
+}
+
+.leader img:first-of-type, .leader img:last-of-type {
+    position: absolute;
+}
+
+.leader img:first-of-type {
+    right: 260px;
+    top: 140px;
+    z-index: 0;
+}
+
+.leader img:last-of-type {
+    right: -60px;
+    top: 450px;
+}
