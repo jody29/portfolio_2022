@@ -1,0 +1,10 @@
+.about h2 {
+    margin-top: 3em;
+}
+
+.about p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #6F9EB7;
+    margin-bottom: 1.2em;
+}

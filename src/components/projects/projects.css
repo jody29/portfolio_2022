@@ -6,7 +6,6 @@ h2 {
     margin-bottom: 1em;
     position: relative;
     left: 1.8em;
-    /* text-shadow: 2px 2px 0px #6F9EB7; */
 }
 
 h2::before {
@@ -18,19 +17,6 @@ h2::before {
     height: .1em;
     background-color: #6F9EB7;
 }
-
-/* h2::before {
-    content: '';
-    top: .8em;
-    width: 7.6em;
-    left: 14.95em;
-    z-index: -20;
-    align-items: center;
-    background-color: #6F9EB7;
-    height: .5em;
-    position: absolute;
-    justify-content: center;
-} */
 
 .projects p {
     color: white;

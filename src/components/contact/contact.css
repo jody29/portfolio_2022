@@ -1,0 +1,26 @@
+.contact {
+    background-color: #1d1b1b;
+    height: 20em;
+    width: 100vw;
+    margin-left: -7.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    width: 1200px;
+}
+
+.inner h2 {
+    color: white;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.inner h2::before {
+    background-color: white;
+}
+
+.inner p {
+    font-weight: bold;
+}
