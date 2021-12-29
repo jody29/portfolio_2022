@@ -1,16 +1,25 @@
 h2 {
-    text-align: center;
-    font-size: 2em;
-    color: white;
+    font-size: 1.5em;
+    color: #6F9EB7;
     font-family: 'futura';
-    position: relative;
-    display: flex;
-    justify-content: center;
     z-index: 10;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+    position: relative;
+    left: 1.8em;
+    /* text-shadow: 2px 2px 0px #6F9EB7; */
 }
 
 h2::before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    top: .7em;
+    left: -1.8em;
+    height: .1em;
+    background-color: #6F9EB7;
+}
+
+/* h2::before {
     content: '';
     top: .8em;
     width: 7.6em;
@@ -21,6 +30,13 @@ h2::before {
     height: .5em;
     position: absolute;
     justify-content: center;
+} */
+
+.projects p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #6F9EB7;
+    margin-bottom: 1.2em;
 }
 
 .projects ul {
@@ -64,10 +80,18 @@ h2::before {
 }
 
 .projects div img {
-    width: 80%;
+    width: 50%;
     transition: 200ms;
 }
 
 .projects div:hover img {
-    width: 90%;
+    width: 60%;
+}
+
+.projects ul li:first-of-type div {
+    background-color: white;
+}
+
+.projects ul li:nth-of-type(2) div {
+    background-color: #2E4385;
 }
