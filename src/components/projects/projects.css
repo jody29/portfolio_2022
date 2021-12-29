@@ -21,3 +21,36 @@ h2::before {
     position: absolute;
     justify-content: center;
 }
+
+.projects ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.projects ul li {
+    margin-right: 2em;
+}
+
+.projects ul li div {
+    width: 21.5em;
+    height: 20em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.projects h3 {
+    color: white;
+    font-family: 'futura';
+    font-weight: bold;
+    margin-left: 1.5em;
+}
+
+.projects h4 {
+    color: white;
+    font-family: 'futura';
+    font-weight: 100;
+    margin-left: 1.6em;
+}

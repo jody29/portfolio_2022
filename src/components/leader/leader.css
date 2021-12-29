@@ -15,13 +15,15 @@ h1 {
     font-weight: bold;
     color: white;
     margin-bottom: .2em;
+    text-shadow: 3px 3px 0px #6F9EB7;
 }
 
 p {
     font-size: 1.7em;
     font-family: 'futura';
     color: white;
-    margin-top: -.5em;
+    font-weight: lighter;
+    margin-top: 0;
 }
 
 button {
@@ -33,6 +35,12 @@ button {
     font-size: 1.1em;
     padding: 1em 1.5em;
     border-radius: 3em;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 .leader .picture {
@@ -48,13 +56,13 @@ button {
 
 .leader img:first-of-type {
     right: 260px;
-    top: 140px;
+    top: 120px;
     z-index: 0;
     opacity: .8;
 }
 
 .leader img:last-of-type {
     right: -60px;
-    top: 450px;
+    top: 440px;
     opacity: .5;
 }
