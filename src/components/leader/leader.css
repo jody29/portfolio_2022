@@ -3,6 +3,8 @@
     align-items: center;
     height: 670px;
     position: relative;
+    width: 1200px;
+    justify-content: center;
 }
 
 .info {

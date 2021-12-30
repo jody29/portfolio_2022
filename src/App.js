@@ -1,20 +1,14 @@
-import './App.css';
-import NavBar from './components/navbar/NavBar.js';
-import Leader from './components/leader/Leader';
-import Projects from './components/projects/Projects';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
+import { Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
 
-function App() {
-  return (
-    <>
-    <NavBar />
-    <Leader />
-    <Projects />
-    <About />
-    <Contact />
-    </>
-  );
+const App = () => {
+    return (
+        <>
+        <Routes>
+            <Route index element={<Home />} />
+        </Routes>
+        </>
+    )
 }
 
-export default App;
+export default App

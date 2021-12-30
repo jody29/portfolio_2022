@@ -1,5 +1,6 @@
 .about h2 {
     margin-top: 3em;
+    font-size: 1em;
 }
 
 .about p {
@@ -7,4 +8,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 0px #6F9EB7;
     margin-bottom: 1.2em;
+}
+
+.about {
+    padding: 5em 0;
 }

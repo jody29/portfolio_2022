@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  width: 1200px;
+  justify-content: center;
+  display: flex;
 }
 
 @keyframes App-logo-spin {
