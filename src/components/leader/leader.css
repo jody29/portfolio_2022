@@ -24,13 +24,17 @@ p {
     font-size: 1.7em;
     font-family: 'futura';
     color: white;
-    font-weight: lighter;
     margin-top: 0;
 }
 
-button {
+.leader p {
+    margin-bottom: 2em;
+}
+
+.leader a {
     background-color: #6F9EB7;
     outline: none;
+    text-decoration: none;
     border: 0;
     font-family: 'futura';
     color: white;

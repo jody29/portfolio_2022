@@ -36,6 +36,11 @@
     font-family: 'futura';
     font-weight: bold;
     border-radius: 2em;
+    transition: 200ms;
+}
+
+.inner span a:hover {
+    transform: scale(1.1);
 }
 
 .inner span {

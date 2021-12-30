@@ -35,6 +35,8 @@ h2::before {
     padding: 0;
     width: 100%;
     overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .projects ul::-webkit-scrollbar {

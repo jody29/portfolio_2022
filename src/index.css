@@ -13,6 +13,7 @@ html {
   display: flex;
   justify-content: center;
   background-color: #2F2F2F;
+  scroll-behavior: smooth;
 }
 
 code {

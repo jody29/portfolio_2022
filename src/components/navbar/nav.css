@@ -21,18 +21,38 @@ nav ul {
 nav ul li {
     color: white;
     font-family: 'futura';
+    position: relative;
 }
 
-nav ul li:last-of-type {
-    border-right: 1px solid white;
-    padding-right: 1.5em;
+nav ul li::after {
+    content: '';
+    width: 0%;
+    transition: 300ms;
+}
+
+nav ul li:hover::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: .1em;
+    bottom: -.5em;
+    background-color: #6F9EB7;
+}
+
+#first {
+    border-left: 1px solid white;
+    margin-left: 1.5em;
+}
+
+.social:hover {
+    filter: grayscale(100%);
 }
 
 nav ul li+li {
     margin-left: 2em;
 }
 
-nav ul img:first-of-type {
+.logo {
     margin-right: auto;
 }
 
@@ -46,4 +66,12 @@ nav ul img:nth-of-type(2)+img {
 
 nav ul img:last-of-type {
     margin-left: 1.5em;
+}
+
+.navbar a {
+    padding: 0;
+    display: flex;
+    color: white;
+    text-decoration: none;
+
 }
