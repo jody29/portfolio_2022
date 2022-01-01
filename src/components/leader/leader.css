@@ -31,7 +31,7 @@ p {
     margin-bottom: 2em;
 }
 
-.leader a {
+.contactButton {
     background-color: #6F9EB7;
     outline: none;
     text-decoration: none;
@@ -45,8 +45,8 @@ p {
     cursor: pointer;
 }
 
-button:hover {
-    transform: scale(1.1);
+.contactButton:hover {
+    transform: scale(1.2);
 }
 
 .leader .picture {

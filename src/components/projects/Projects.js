@@ -1,9 +1,15 @@
 import { Link } from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './projects.css'
 
 const Projects = () => {
+    Aos.init({
+        duration: 1000
+    })
+
     return (
-        <div className="projects" id='projects'>
+        <div className="projects" id='projects' data-aos='fade-right'>
             <h2>portfolio</h2>
             <p>Wat heb ik allemaal gemaakt?</p>
             <ul>

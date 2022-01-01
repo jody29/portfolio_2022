@@ -1,7 +1,6 @@
 import smallBg from '../../assets/smallBg.svg'
 import bigBg from '../../assets/bigBg.svg'
 import './leader.css'
-import { Link } from 'react-router-dom'
 
 
 const Leader = () => {
@@ -10,7 +9,7 @@ const Leader = () => {
             <div className='info'>
                 <h1>Jody Lorist</h1>
                 <p>Web designer &amp; Front-end Developer</p>
-                <a href='#contact'>Contact opnemen</a>
+                <a href='#contact' className='contactButton'>Contact opnemen</a>
             </div>
 
             <img src={bigBg} alt='bigBg'></img>

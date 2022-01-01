@@ -2,12 +2,18 @@ import ButtonMailto from '../ButtonMailto'
 import ig from '../../assets/ig.svg'
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/github.svg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './contact.css'
 
 const Contact = () => {
+    Aos.init({
+        duration: 1000
+    })
+
     return (
         <div className="contact" id='contact'>
-            <div className='inner'>
+            <div className='inner' data-aos='fade-right'>
                 <h2>contact</h2>
                 <p>Neem contact met mij op</p>
                 <span>

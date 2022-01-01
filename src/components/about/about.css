@@ -7,9 +7,36 @@
     color: white;
     font-weight: bold;
     text-shadow: 2px 2px 0px #6F9EB7;
-    margin-bottom: 1.2em;
+    margin-bottom: 1.5em;
 }
 
 .about {
-    padding: 5em 0;
+    padding: 5em 0 10em;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills div {
+    width: calc(95%/2);
+}
+
+.skills div img {
+    width: 2.5em;
+    margin-bottom: .5em;
+    height: 23px;
+}
+
+.skills div h3 {
+    color: white;
+    font-size: 1.3em;
+} 
+
+.skills div p {
+    text-shadow: none;
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
 }
