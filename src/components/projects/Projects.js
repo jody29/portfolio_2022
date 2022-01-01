@@ -9,10 +9,10 @@ const Projects = () => {
     })
 
     return (
-        <div className="projects" id='projects' data-aos='fade-right'>
-            <h2>portfolio</h2>
-            <p>Wat heb ik allemaal gemaakt?</p>
-            <ul>
+        <div className="projects" id='projects'>
+            <h2 data-aos='fade-right'>portfolio</h2>
+            <p data-aos='fade-right'>Wat heb ik allemaal gemaakt?</p>
+            <ul data-aos='fade-right'>
                 <li>
                     <Link to='/'>
                         <div>

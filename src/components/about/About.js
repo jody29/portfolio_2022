@@ -10,10 +10,10 @@ const About = () => {
     })
 
     return (
-        <div className='about' id='about' data-aos='fade-left'>
-            <h2>over mij</h2>
-            <p>Wat zijn mijn vaardigheden?</p>
-            <article className='skills'>
+        <div className='about' id='about'>
+            <h2 data-aos='fade-left'>over mij</h2>
+            <p data-aos='fade-left'>Wat zijn mijn vaardigheden?</p>
+            <article className='skills' data-aos='fade-left'>
                 <div>
                     <img src={visual} alt='visual'></img>
                     <h3>Web Design</h3>
