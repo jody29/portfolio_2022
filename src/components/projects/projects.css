@@ -4,7 +4,7 @@
 
 h2 {
     font-size: 1em;
-    color: #6F9EB7;
+    color: #69F2DD;
     font-family: 'futura';
     z-index: 10;
     margin-bottom: 1em;
@@ -19,13 +19,13 @@ h2::before {
     top: .75em;
     left: -1.8em;
     height: .1em;
-    background-color: #6F9EB7;
+    background-color: #69F2DD;
 }
 
 .projects p {
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 0px #6F9EB7;
+    text-shadow: 1px 1px 0px #69F2DD;
     margin-bottom: 1.2em;
 }
 

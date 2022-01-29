@@ -5,7 +5,7 @@ nav {
     left: 0;
     display: flex;
     justify-content: center;
-    background-color: #2F2F2F;
+    background-color: #2F2F2Fd1;
     z-index: 120;
 }
 
@@ -36,7 +36,7 @@ nav ul li:hover::after {
     position: absolute;
     height: .1em;
     bottom: -.5em;
-    background-color: #6F9EB7;
+    background-color: #69F2DD;
 }
 
 #first {

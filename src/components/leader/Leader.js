@@ -1,5 +1,3 @@
-import smallBg from '../../assets/smallBg.svg'
-import bigBg from '../../assets/bigBg.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import './leader.css'
@@ -13,14 +11,14 @@ const Leader = () => {
     return (
         <div className='leader'>
             <div className='info'>
+                <p className='hello'>HALLO, MIJN NAAM IS</p>
                 <h1>Jody Lorist</h1>
-                <p>Web designer &amp; Front-end Developer</p>
-                <a href='#contact' className='contactButton'>Contact opnemen</a>
+                <p className='job'>CREATIEVE DEVELOPER</p>
+                <p>Ik ben een proffesionele front-end developer met goed oog voor detail en een creatieve mindset.</p>
             </div>
 
-            <img src={bigBg} alt='bigBg'></img>
-            <img src='/picture.png' alt='profile' className='picture'></img>
-            <img src={smallBg} alt='smallBg' ></img>
+            <img src='/fotoJody.png' alt='profile' className='picture'></img>
+            
         </div>
     )
 }
