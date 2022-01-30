@@ -1,27 +1,37 @@
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Particles from "react-tsparticles"
+import Aos from "aos"
+import Project from "./pages/project"
 
 const App = () => {
+    Aos.init({
+        duration: 1000
+    })
+
     const particlesInit = (main) => {
         console.log(main);
-      };
+    };
     
-      const particlesLoaded = (container) => {
+    const particlesLoaded = (container) => {
         console.log(container);
-      }
+    }
 
+    window.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() { Aos.refresh(); }, 100);
+    });
 
     return (
         <>
         <Particles
       id="tsparticles"
+      z-index='0'
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
         background: {
           color: {
-            value: "#2F2F2F",
+            value: "transparant",
           },
         },
         fpsLimit: 60,
@@ -62,7 +72,7 @@ const App = () => {
             distance: 150,
             enable: true,
             opacity: 0.4,
-            width: 1,
+            width: 2,
           },
           collisions: {
             enable: true,
@@ -98,6 +108,8 @@ const App = () => {
     />
         <Routes>
             <Route index element={<Home />} />
+            <Route exact path='/musicmatch' element={<Project />} />
+            <Route exact path='/technoleon' element={<Project />} />
         </Routes>
         </>
     )

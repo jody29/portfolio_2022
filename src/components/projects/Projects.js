@@ -8,53 +8,31 @@ const Projects = () => {
         duration: 1000
     })
 
+    const projects = [
+        {name: 'MusicMatch', img: '/musicmatch.png', url: '/musicmatch', specialty: 'Front-end & Back-end'},
+        {name: 'Technoleon', img: '/technoleon.png', url: '/technoleon', specialty: 'Front-end & UI-Design'},
+    ]
+
     return (
         <div className="projects" id='projects'>
             <h2 data-aos='fade-right'>portfolio</h2>
             <p data-aos='fade-right'>Wat heb ik allemaal gemaakt?</p>
             <ul data-aos='fade-right'>
-                <li>
-                    <Link to='/'>
+                
+                {projects.map(project => (
+                <li key={project.name}>
+                    <Link to={project.url}>
                         <div>
-                            <img src='/musicMatch.png' alt='musicMatch'></img>
+                            <img src={project.img} alt={project.name}></img>
                             <span>
-                                <h3>MusicMatch</h3>
-                                <h4>Front-end &amp; Back-end</h4>
+                                <h3>{project.name}</h3>
+                                <h4>{project.specialty}</h4>
                             </span>
                         </div>
                     </Link>
                 </li>
-                <li>
-                    <Link to='/'>
-                        <div>
-                            <img src='/technoleon.png' alt='technoleon'></img>
-                            <span>
-                                <h3>Technoleon</h3>
-                                <h4>Front-end &amp; UI-Design</h4>
-                            </span>
-                        </div>
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/'>
-                    <div>
-                            <span>
-                                <h3>Technoleon</h3>
-                                <h4>Front-end</h4>
-                            </span>
-                        </div>
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/'>
-                        <div>
-                            <span>
-                                <h3>Technoleon</h3>
-                                <h4>Front-end</h4>
-                            </span>
-                        </div>
-                    </Link>
-                </li>
+                ))}
+                       
             </ul>
         </div>
     )

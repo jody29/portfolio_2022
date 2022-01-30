@@ -1,0 +1,12 @@
+.header h1 {
+    font-size: 5.5em;
+    font-family: 'futura';
+    font-weight: bold;
+    color: white;
+    margin-bottom: .2em;
+    text-shadow: 3px 3px 0px #69F2DD;
+}
+
+.header {
+    z-index: 100;
+}
