@@ -1,0 +1,9 @@
+.projectPage {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.projectRight {
+    margin-left: 7em;
+}

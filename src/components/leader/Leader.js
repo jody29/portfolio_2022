@@ -14,7 +14,7 @@ const Leader = () => {
                 <p className='hello'>HALLO, MIJN NAAM IS</p>
                 <h1>Jody Lorist</h1>
                 <p className='job'>CREATIEVE DEVELOPER</p>
-                <p>Ik ben een proffesionele front-end developer met goed oog voor detail en een creatieve mindset.</p>
+                <p>Ik ben een professionele front-end developer met een goed oog voor detail en een creatieve mindset.</p>
             </div>
 
             <img src='/fotoJody.png' alt='profile' className='picture'></img>

@@ -13,3 +13,8 @@
     transform: rotate(360deg);
   }
 }
+
+#tsparticles {
+  position: relative;
+  z-index: -100;
+}

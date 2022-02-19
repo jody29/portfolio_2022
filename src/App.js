@@ -10,11 +10,11 @@ const App = () => {
     })
 
     const particlesInit = (main) => {
-        console.log(main);
+      console.log(main);
     };
-    
+  
     const particlesLoaded = (container) => {
-        console.log(container);
+      console.log(container);
     }
 
     window.addEventListener("DOMContentLoaded", function() {
@@ -25,7 +25,6 @@ const App = () => {
         <>
         <Particles
       id="tsparticles"
-      z-index='0'
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
@@ -67,6 +66,7 @@ const App = () => {
           color: {
             value: "#69F2DD",
           },
+          zIndex: -1,
           links: {
             color: "#ffffff",
             distance: 150,
@@ -108,8 +108,8 @@ const App = () => {
     />
         <Routes>
             <Route index element={<Home />} />
-            <Route exact path='/musicmatch' element={<Project />} />
-            <Route exact path='/technoleon' element={<Project />} />
+            <Route path='/musicmatch' element={<Project />} />
+            <Route path='/technoleon' element={<Project />} />
         </Routes>
         </>
     )
