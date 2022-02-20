@@ -27,7 +27,11 @@ nav ul li {
 nav ul li::after {
     content: '';
     width: 0%;
-    transition: 300ms;
+    position: absolute;
+    height: .1em;
+    bottom: -.5em;
+    background-color: #69F2DD;
+    transition: 500ms;
 }
 
 nav ul li:hover::after {

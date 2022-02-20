@@ -20,7 +20,7 @@ const SideBar = ({ project }) => {
 
     return (
         <div className="sideBar">
-            <Link to='/'>Terug naar overzicht</Link>
+            <Link onClick={() => {window.history.go(-1)}} to=''>Terug naar overzicht</Link>
             <ul>
             {sideInfo.map(obj => (
                 <li><img src={obj.img} alt={obj.text} />{obj.text}</li>
