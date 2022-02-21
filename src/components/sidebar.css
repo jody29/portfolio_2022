@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.sideBar {
+    width: 25%;
+}
+
 .sideBar a::before {
     content: url('../assets/arrowBack.svg');
     margin-right: 1em;

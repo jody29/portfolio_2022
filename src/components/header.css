@@ -6,3 +6,9 @@
     margin-bottom: .2em;
     text-shadow: 3px 3px 0px #69F2DD;
 }
+
+.header h3 {
+    margin-top: -.5em;
+    color: #69F2DD;
+    font-weight:300;
+}

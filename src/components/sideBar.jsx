@@ -3,20 +3,9 @@ import './sidebar.css'
 
 const SideBar = ({ project }) => {
 
-    console.log(project)
-
     const filterData = project.filter((d) => d.project === window.location.pathname)
 
-    console.log(filterData[0].sideInfo.map(obj => {
-        return obj.text
-    }))
-
     const sideInfo = filterData[0].sideInfo
-
-    console.log(sideInfo)
-
-    
-
 
     return (
         <div className="sideBar">
