@@ -110,6 +110,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path='/musicmatch' element={<Project />} />
             <Route path='/technoleon' element={<Project />} />
+            <Route path='/zwerfinator' element={<Project />} />
         </Routes>
         </>
     )

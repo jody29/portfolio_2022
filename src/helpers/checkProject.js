@@ -3,6 +3,8 @@ const checkProject = (path) => {
         return 'Music Match'
     } else if (path === '/technoleon') {
         return 'Technoleon'
+    } else if (path === '/zwerfinator') {
+        return 'Zwerfinator'
     }
 }
 
