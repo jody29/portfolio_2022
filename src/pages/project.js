@@ -85,8 +85,8 @@ function Project() {
                 like hebben gegegeven. Op het moment van een match zal er een chat worden aangemaakt voor de 2 gebruikers.
                 `,
                 'scenes': ['/MusicMatch_Scene1.png', '/MusicMatch_Scene2.png'],
-                'github': 'https://github.com/jody29/tech_team',
-                'live': 'https://musicmatch1.herokuapp.com/'
+                'github': 'https://github.com/jody29/zwerfinator_interactive_map',
+                'live': 'https://zwerfinator-eight.vercel.app/'
                 
             } 
         },
