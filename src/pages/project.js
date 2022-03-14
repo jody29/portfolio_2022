@@ -72,19 +72,18 @@ function Project() {
                 {'text': '2022', 'img': date},
             ],
             'info': {
-                'header': '/MusicMatch_Mockup1.png',
+                'header': '/zwerfinator_header.png',
                 'assignment': `
-                Voor het vak project tech kregen we als team de opdracht om een matching app te ontwerpen en uiteindelijk met 
-                Node.JS te bouwen. Wij hadden ervoor gekozen om een app te maken waarbij de gebruiker kan matchen op basis van 
-                muziek smaak. Ieder teamlid moest een functie van de applicatie bouwen.
+                Voor het vak information design kregen we als team een opdrachtgever toegewezen. Bij ons was dit Dirk Groot (aka zwerfinator).
+                We kregen als opdracht om de afval die hij de afgelopen jaren heeft opgeruimd en bij heeft gehouden te visualiseren in een
+                interactieve datavisualisatie. Wij hebben dus gebruik gemaakt van een dataset waar alle afval die hij bij McDonalds restaurants
+                heeft opgeruimd in staat. Wij wilden met deze datavisualisatie laten zien welke invloed Dirk Groot zijn acites nu eigenlijk heeft.
                 `,
                 'task': `
-                Tijdens dit project heb ik gewerkt aan de chat functie en matching functie. Voor de chat functie heb ik gebruik
-                gemaakt van socket.io. Hiermee kan ik real-time data uitwisselen. De chats worden vervolgens opgeslagen in de MongoDB
-                database. Voor de matching functie heb ik ingesteld dat 2 gebruikers pas met elkaar matchen op moment dat ze elkaar een
-                like hebben gegegeven. Op het moment van een match zal er een chat worden aangemaakt voor de 2 gebruikers.
+                Tijdens dit project was ik verantwoordelijke voor de frontend development. Ik heb de webpagina gebouwd met React.js en voor
+                de kaart heb ik gebruik gemaakt van MapboxGL. Ook was ik nauw betrokken bij het ontwerpproces van dit project.
                 `,
-                'scenes': ['/MusicMatch_Scene1.png', '/MusicMatch_Scene2.png'],
+                'scenes': ['/zwerfinator_mockup1.png', '/zwerfinator_mockup2.png', '/zwerfinator_mockup3.png', '/zwerfinator_mockup4.png'],
                 'github': 'https://github.com/jody29/zwerfinator_interactive_map',
                 'live': 'https://zwerfinator-eight.vercel.app/'
                 
