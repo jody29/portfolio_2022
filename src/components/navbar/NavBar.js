@@ -8,7 +8,7 @@ const NavBar = () => {
     return (
         <nav className='navbar'>
             <ul>
-                <a href='#' className='logo'><img src={logo} alt='logo'></img></a>
+                <a href='/' className='logo'><img src={logo} alt='logo'></img></a>
                 <li><a href='#projects'>Portfolio</a></li>
                 <li><a href='#about'>Over mij</a></li>
                 <li><a href='#contact'>Contact</a></li>
