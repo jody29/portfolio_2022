@@ -9,7 +9,7 @@ const Projects = () => {
     })
 
     const projects = [
-        {name: 'MusicMatch', img: '/musicmatch.png', url: '/musicmatch', specialty: 'Front-end & Back-end'},
+        {name: 'MusicMatch', img: '/musicMatch.png', url: '/musicmatch', specialty: 'Front-end & Back-end'},
         {name: 'Technoleon', img: '/technoleon.png', url: '/technoleon', specialty: 'Front-end & UI-Design'},
         {name: 'Zwerfinator', img: '/zwerfinator.png', url: '/zwerfinator', specialty: 'Front-end'},
         
